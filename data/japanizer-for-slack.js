@@ -246,6 +246,7 @@
     "Team Directory": "チームディレクトリ",
     "Help": "ヘルプ",
     "What's New": "お知らせ",
+    "Add a topic": "トピックを設定",
 
     // Main page - messages
     " (edited)": "(編集済)",
@@ -265,7 +266,11 @@
     "Delete message": "メッセージを削除",
 
     "Narrow your search": "絞込検索",
-    "Learn more": "kwsk",
+    "Learn more": "詳細を表示",
+
+    // Direct messages
+    "View conversation details": "会話の詳細を表示",
+    "About this conversation": "この会話について",
 
     // Quick switcher
     "\n			Jump to a conversation\n			": "会話へジャンプ",
@@ -332,8 +337,8 @@
     "$1$2, $3, $4, $5 キーは常にメッセージをスクロールする": /^\s*(<input(?:[^>]+)>\s*)(<em>Page up<\/em>), (<em>Page down<\/em>), (<em>Home<\/em>), and (<em>End<\/em>) keys always scroll messages\s*$/,
     "$1Ctrl + F でSlackの検索を開始する$2$3標準のブラウザ検索を上書きます": /^\s*(<input(?:[^>]+)>\s*)Ctrl \+ F starts a Slack search(<br>)\s*(<span(?:[^>]+)>)Overrides normal browser search behavior(<\/span>)\s*$/,
     "$1Ctrl + K でクイックスイッチャを起動する$2$3いくつかのブラウザの標準動作を上書きます": /^\s*(<input(?:[^>]+)>\s*)Ctrl \+ K starts the quick switcher(<br>)\s*(<span(?:[^>]+)>)Overrides normal behavior in some browsers(<\/span>)\s*$/,
+    "$1のプロフィールを表示": /View\s*(#[a-zA-Z0-9]+)\s*’s profile$/,
   };
-
   var placeholders = {
     "Search": "検索",
     "Search channels": "チャネル検索",
