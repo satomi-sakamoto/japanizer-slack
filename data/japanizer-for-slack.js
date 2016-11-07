@@ -261,6 +261,7 @@
     "Tomorrow": "明日",
     "Next Week": "来週",
     "Pin to this conversation …": "メッセージをピン留め …",
+    "Edit message": "メッセージを編集",
     "Delete message": "メッセージを削除",
 
     "Narrow your search": "絞込検索",
